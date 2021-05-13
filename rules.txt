@@ -1,0 +1,88 @@
+54016	1634	1-4	4 bytes	1 count/bit	0
+54016	1635	5-20	16 bytes	ASCII	0
+57344	986	1	1 byte	0.4 %/bit	0
+57344	3695	6.1	2 bits	4 states/2 bit	0
+57344	3696	6.3	2 bits	4 states/2 bit	0
+61443	91	2	1 byte	0.4 %/bit	0
+61443	92	3	1 byte	1 %/bit	0
+61443	3357	7	1 byte	0.4 %/bit	0
+61443	5399	6.5	2 bits	4 states/2 bit	0
+61443	5400	6.7	2 bits	4 states/2 bit	0
+61444	190	4-5	2 bytes	0.125 rpm per bit	0
+61444	512	2	1 byte	1 %/bit	-125 %
+61444	513	3	1 byte	1 %/bit	-125 %
+61444	899	1.1	4 bits	16 states/4 bit	0
+61444	2432	8	1 byte	1 %/bit	-125 %
+61444	4154	1.5	4 bits	0.125 %/bit	0
+61450	132	3-4	2 bytes	0.05 kg/h per bit	0
+61454	3216	1-2	2 bytes	0.05 ppm/bit	-200 ppm
+61455	3226	1-2	2 bytes	0.05 ppm/bit	-200 ppm
+61475	4332	3.1	4 bits	16 states/4 bit	0
+61475	4333	4-5	2 bytes	0.10 g/bit	0
+61475	4334	6	1 byte	8 kPa/bit	0
+64598	7095	5-8	4 bytes	1 s/bit	0
+64599	6817	1-4	4 bytes	1 s/bit	0
+64599	6818	5-8	4 bytes	1 s/bit	0
+64753	5625	3	1 byte	0.4 %/bit	0
+64775	5078	1.3	2 bits	4 states/2 bit	0
+64775	5079	1.5	2 bits	4 states/2 bit	0
+64775	5080	1.7	2 bits	4 states/2 bit	0
+64800	4765	1-2	2 bytes	0.03125 буC/bit	-273 буC
+64830	4360	1-2	2 bytes	0.03125 буC/bit	-273 буC
+64830	4363	4-5	2 bytes	0.03125 буC/bit	-273 буC
+64872	417	1-3	3 bytes	2 kg/bit	0
+64878	4364	5	1 byte	0.4 %/bit	0
+64891	3720	2	1 byte	1 %/bit	0
+64891	3721	3-6	4 bytes	1 s/bit	0
+64892	3701	2.5	3 bits	8 states/3 bit	0
+64908	3610	3-4	2 bytes	0.1 kPa/bit	0
+64914	3543	1.1	4 bits	16 states/4 bit	0
+64914	3644	8	1 byte	0.4 %/bit	0
+64920	3522	1-4	4 bytes	0.5 L/bit	0
+64920	3523	5-8	4 bytes	1 s/bit	0
+64920	3524	9-12	4 bytes	1 s/bit	0
+64920	3525	13-16	4 bytes	1 count/bit	0
+64920	3727	25-28	4 bytes	1 count/bit	0
+64920	3728	29-32	4 bytes	1 count/bit	0
+64920	5454	33-36	4 bytes	1 s/bit	0
+64923	3516	2	1 byte	0.25 %/bit	0
+64946	3251	5-6	2 bytes	0.1 kPa/bit	0
+64947	3246	3-4	2 bytes	0.03125 буC/bit	-273 буC
+64948	3242	3-4	2 bytes	0.03125 буC/bit	-273 буC
+64952	3301	1-2	2 bytes	1 s/bit	0
+65110	1761	1	1 byte	0.4 %/bit	0
+65110	3031	2	1 byte	1 буC/bit	-40 буC
+65110	5246	6.6	3 bits	8 states/3 bit	0
+65170	1209	2-3	2 bytes	1/128 kPa/bit	-250 kPa
+65201	1033	5-8	4 bytes	0.05 h/bit	0
+65213	977	2.1	4 bits	16 states/4 bit	0
+65213	1639	3-4	2 bytes	0.125 rpm per bit	0
+65217	917	1-4	4 bytes	5 m/bit	0
+65242	234	2-N	"Variable - up to 200 bytes followed by an ""*"" delimiter"	ASCII	0
+65244	235	5-8	4 bytes	0.05 h/bit	0
+65244	236	1-4	4 bytes	0.5 L/bit	0
+65247	514	1	1 byte	1 %/bit	-125 %
+65247	2978	5	1 byte	1 %/bit	-125 %
+65251	544	20-21	2 bytes	1 Nm/bit	0
+65253	247	1-4	4 bytes	0.05 h/bit	0
+65253	249	5-8	4 bytes	1000 r/bit	0
+65257	182	1-4	4 bytes	0.5 L/bit	0
+65257	250	5-8	4 bytes	0.5 L/bit	0
+65259	586	a	"Variable - up to 5 bytes followed by an ""*"" delimiter"	ASCII	0
+65259	587	b	"Variable - up to 200 bytes followed by an ""*"" delimiter"	ASCII	0
+65262	110	1	1 byte	1 буC/bit	-40 буC
+65262	175	3-4	2 bytes	0.03125 буC/bit	-273 буC
+65263	100	4	1 byte	4 kPa/bit	0
+65263	111	8	1 byte	0.4 %/bit	0
+65265	70	1.3	2 bits	4 states/2 bit	0
+65265	84	2-3	2 bytes	1/256 km/h per bit	0
+65265	595	4.1	2 bits	4 states/2 bit	0
+65265	597	4.5	2 bits	4 states/2 bit	0
+65265	598	4.7	2 bits	4 states/2 bit	0
+65266	51	7	1 byte	0.4 %/bit	0
+65269	108	1	1 byte	0.5 kPa/bit	0
+65269	171	4-5	2 bytes	0.03125 буC/bit	-273 буC
+65270	102	2	1 byte	2 kPa/bit	0
+65270	105	3	1 byte	1 буC/bit	-40 буC
+65271	168	5-6	2 bytes	0.05 V/bit	0
+65279	5826	2.4	3 bits	8 states/3 bit	0

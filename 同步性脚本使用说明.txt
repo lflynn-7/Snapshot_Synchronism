@@ -1,0 +1,23 @@
+rule.txt 这个不需要关注，不能动里面的内容
+read.hb_cd.py  这是脚本，打开文件，run一下就出结果了
+hex_message.csv  这是录制的报文，修改命名，并且是csv格式
+CDTestCase.xlsx  CD的测试用例，不需要修改
+ProcessedHBMessagesDF20210128.csv    从storage导出的HBjson数据，文档命名随便，只是把文档名放到read.hb_cd.py里面
+共5个文件，放在同一个文件夹里面
+
+read.hb_cd.py 代码里面需要注意的地方：
+
+isFliterNA = True  此参数是控制无效值的，isFliterNA = True是TSP过滤了无效值的，isFliterNA = False是TSP不过滤无效值
+df = pd.read_csv('ProcessedHBMessagesDF20210128.csv') 从storage导出来的文件名放到这里
+start_hb = '2021-01-28T01:40:38.000Z'  从storage导出的文件里面的OccurrenceDateTime 开始HB的时间
+end_hb = '2021-01-28T01:45:55.000Z'    从storage导出的文件里面的OccurrenceDateTime 结束HB的时间
+	
+start_second = -5  end_second = 25 根据HB的OccurrenceDateTime，找出此条HB的报文采集时间段，start_second=-5，代表在OccurrenceDateTime的时间再往前找5秒，end_second = 25，代表在OccurrenceDateTime时间往后找25秒
+
+结果解析：
+	1、这个情况是在这30秒内的报文里找到了对应的数据，但是同步性时间不满足
+	compare pgn 7424 fail time 804.0 > 50     65270下面广播的第57条报文
+	2、这个的情况是在这30秒内，没有找到此条HB上报数据的PGN 49664的报文
+	compare pgn 49664 not found
+	3、这个情况是同步性满足要求
+	compare pgn 57344 success time 984.0 <= 1000  65270下面广播的第1条报文
